@@ -1,0 +1,82 @@
+html{
+    height:100%
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{
+    margin:0;
+    padding:0;
+}
+fieldset, img {
+    border: 0 none;
+}
+dl, ul, ol, menu, li {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+input, select, textarea, button {
+    vertical-align: middle;
+}
+input::-ms-clear {
+    display: none;
+}
+button {
+    border: 0 none;
+    background-color: transparent;
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+}
+body {
+    height: 100%;
+    background: #fff;
+}
+body, th, td, input, select, textarea, button {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'AppleSDGothicNeo-Light', 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif;
+    color: #111;
+}
+a {
+    text-decoration: none;
+}
+a:active, a:hover {
+    text-decoration: underline;
+}
+a:active {
+    background-color: transparent;
+}
+address, caption, cite, code, dfn, em, var {
+    font-style: normal;
+    font-weight: normal;
+}
+input:focus, textarea:focus, select:focus {
+    outline:none;
+}
+code {
+    background: #474747;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+pre img {
+    max-width: 100%;
+}
+article {
+    overflow: scroll;
+    width: calc(100vw - 241px);
+    height: calc(100vh - 56px);
+    box-sizing: border-box;
+    display: none;
+    position: fixed;
+    top: 56px;
+    left: 241px;
+}
+article.on{
+    display: block;
+}

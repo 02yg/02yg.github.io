@@ -10,16 +10,13 @@ header {
 }
 header .logo {
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 156px;
-    height: 34px;
-    padding: 11px 0 0 19px;
-    z-index: 30;
-    overflow: hidden;
-    font-size: 17px;
-    font-weight: bolder;
-    color: #b2b2b2;
+    left: 23px;
+    top: 15px;
+    width: 80px;
+    height: 28px;
+    background-image: url(/img/logo.gif);
+    background-position: -46px -15px;
+    background-size: 154px auto;
 }
 header .nav {
     position: relative;
